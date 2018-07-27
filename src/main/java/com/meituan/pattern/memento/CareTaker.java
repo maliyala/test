@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CareTaker {
-    private List<Memento> mementoList = new ArrayList<>();
+    private List<Memento> lists = new ArrayList<>();
 
     public void add(Memento state){
-        mementoList.add(state);
+        lists.add(state);
     }
     public Memento get(int index){
-        return mementoList.get(index);
+        return lists.get(index);
     }
 }

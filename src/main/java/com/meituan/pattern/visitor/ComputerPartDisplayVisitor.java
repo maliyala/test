@@ -3,12 +3,12 @@ package com.meituan.pattern.visitor;
 public class ComputerPartDisplayVisitor implements ComputerPartVisitor {
     @Override
     public void visit(Computer computer) {
-        System.out.println("Displaying computer");
+        System.out.println("Displaying Computer");
     }
 
     @Override
     public void visit(Mouse mouse) {
-        System.out.print("Displaying mouse");
+        System.out.println("Displaying mouse");
     }
 
     @Override
